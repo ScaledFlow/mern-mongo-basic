@@ -1,0 +1,29 @@
+{
+  "name": "mern-mongo-basic",
+  "version": "1.0.0",
+  "description": "npm init\r npm i express --save\r npm i body-parser --save",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScaledFlow/mern-mongo-basic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ScaledFlow/mern-mongo-basic/issues"
+  },
+  "homepage": "https://github.com/ScaledFlow/mern-mongo-basic#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
